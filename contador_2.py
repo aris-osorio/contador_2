@@ -42,9 +42,7 @@ def main():
     lista = documento.crear_lista(cadena)
     diccionario = documento.contar_palabras(lista)
     tabla = documento.top_diez(diccionario)
-    print(tabla)
-   
-            
+    print(tabla)       
    
 if  __name__ == "__main__":
     main()
